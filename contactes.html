@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Jocs</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h2></h2>
+
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="llibres.html">Noveŀles i llibres</a></li>
+                <li><a href="peŀlicules.html">Peŀlicules</a></li>
+                <li><a href="jocs.html">Jocs</a></li>
+                <li a class="active" href="contactes.html">Contactes</a></li>
+            </ul>
+        </nav>
+        <article>
+            <form action="gracies.html" method="post" name="formulari" id="formulari" onsubmit="return validarForm();">
+                <fieldset>
+                    <legend>Dades</legend>
+                    <label for="noms_i_cognoms">Noms i Cognoms:</label><br>
+                    <input type="text" id="noms_i_cognoms" name="Noms i Cognoms" placeholder="El teu Nom i Cognoms"
+                        required><br>
+                    <label for="correu_electrònic">Correu Electrònic</label><br>
+                    <input type="email" id="correu_electrònic" placeholder="example@email.cat" required><br>
+                    <label for="contrasenya">Contrasenya</label><br>
+                    <input type="password" id="contrasenya" placeholder="Contrasenya de 6 o més caracters" required checked><br>
+                    <button type="submit" id="submit">Registrat</button>
+                </fieldset>
+                <p>Registrat per mes informació</p><br>
+                <p>Obtindras noticies, informació important i resums dels llibres, pel·licules i jocs</p>
+                
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <p>Creada per Aleix Frias Fernandez</p>
+    </footer>
+
+</html>
